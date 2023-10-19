@@ -45,11 +45,10 @@
 /* navbar end */
 /* selamat datang */
 
-.selamat-datang {
+.selamat-datang .content {
   min-height: 100vh;
   display: inline;
   align-items: center;
-  background-color: #4e8080;
 }
 .selamat-datang .content h1 {
   color: darkblue;
@@ -81,6 +80,7 @@
 /* about start */
 .pertanyaan-satu {
   min-height: 100vh;
+  margin-top: 30rem;
 }
 .pertanyaan-satu h2 {
   padding: 7rem 7% 1.4rem;
