@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 7%;
+  padding: 1rem 7%;
   background-color: var(--bg);
   border-bottom: 2px solid black;
   position: fixed;
@@ -32,14 +32,14 @@
   z-index: 9999;
 }
 .navbar .navbar-logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: black;
 }
 .navbar .navbar-nav {
   opacity: 0;
 }
-.navbar .navbar-extra a clear {
+.navbar .navbar-extra {
   opacity: 0;
 }
 /* navbar end */
@@ -54,15 +54,15 @@
 .selamat-datang .content h1 {
   color: darkblue;
   font-size: 2.5rem;
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+  padding-top: 8rem;
+  padding-bottom: 0.2rem;
   text-align: center;
 }
 .selamat-datang .content p {
   color: black;
   font-size: 1.7rem;
   margin: 1rem 7%;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 .selamat-datang .content h2 {
   font-size: 2rem;
@@ -72,7 +72,7 @@
 .selamat-datang .content .cta {
   font-size: 2rem;
   color: #bd7d06;
-  margin: 2rem 45%;
+  margin: 1.7rem 40%;
 }
 .selamat-datang .content .cta:hover {
   color: #03e7dc;
@@ -160,11 +160,11 @@
   font-size: 3rem;
   color: #013a37;
   text-align: center;
-  padding: 7rem 7%;
+  padding: 9rem 7%;
   padding-bottom: 1rem;
 }
 .jawaban-tiga p {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   font-style: italic;
   color: #6d5002;
@@ -173,7 +173,7 @@
   padding-bottom: 0.5rem;
 }
 .jawaban-tiga h3 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   color: #16026d;
   text-align: center;
@@ -184,6 +184,7 @@
   display: block;
   text-align: center;
   padding-top: 0.2rem;
+  padding-bottom: 2rem;
   color: #041564;
   font-size: 2rem;
 }
@@ -194,7 +195,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 30%;
 }
 
 /* about end */
